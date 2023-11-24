@@ -10,6 +10,7 @@ export interface TextUiProps {
   icon?: IconProp;
   iconColor?: string;
   iconAnimation?: IconAnimation;
+  iconResize?: boolean;
   style?: React.CSSProperties;
   alignIcon?: 'top' | 'center';
 }

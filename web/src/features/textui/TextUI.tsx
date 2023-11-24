@@ -56,7 +56,7 @@ const TextUI: React.FC = () => {
                 <LibIcon
                   icon={data.icon}
                   fixedWidth
-                  size="lg"
+                  size={data.iconResize ? 'xl' : 'lg'}
                   animation={data.iconAnimation}
                   style={{
                     color: data.iconColor,

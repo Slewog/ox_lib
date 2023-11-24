@@ -10,6 +10,7 @@ export interface NotificationProps {
   duration?: number;
   icon?: IconProp;
   iconColor?: string;
+  iconResize?:boolean;
   iconAnimation?: IconAnimation;
   position?: ToastPosition | 'top' | 'bottom';
   id?: number | string;

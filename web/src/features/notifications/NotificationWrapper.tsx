@@ -184,7 +184,7 @@ const Notifications: React.FC = () => {
                       alignSelf: !data.alignIcon || data.alignIcon === 'center' ? 'center' : 'start',
                     }}
                     fixedWidth
-                    size="lg"
+                    size={data.iconResize ? '2x' : 'xl'}
                   />
                 )}
               </>
